@@ -1,13 +1,13 @@
 return {
 	Name = "Darker",
-	Accent = Color3.fromRGB(72, 138, 182),
+	Accent = Color3.fromRGB(255, 215, 0),  -- Changed to a golden yellow
 
 	AcrylicMain = Color3.fromRGB(30, 30, 30),
 	AcrylicBorder = Color3.fromRGB(60, 60, 60),
 	AcrylicGradient = ColorSequence.new(Color3.fromRGB(25, 25, 25), Color3.fromRGB(15, 15, 15)),
 	AcrylicNoise = 0.94,
 
-	TitleBarLine = Color3.fromRGB(65, 65, 65),
+	TitleBarLine = Color3.fromRGB(120, 100, 20), -- Minimalistic element with a darker yellow tint
 	Tab = Color3.fromRGB(100, 100, 100),
 
 	Element = Color3.fromRGB(70, 70, 70),
